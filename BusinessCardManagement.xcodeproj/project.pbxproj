@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		00CCDEC32CDB0E4A00D55EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCDEC22CDB0E4A00D55EEB /* AppDelegate.swift */; };
 		00CCDEC52CDB0E4A00D55EEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCDEC42CDB0E4A00D55EEB /* SceneDelegate.swift */; };
-		00CCDEC72CDB0E4A00D55EEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCDEC62CDB0E4A00D55EEB /* ViewController.swift */; };
 		00CCDECA2CDB0E4A00D55EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CCDEC82CDB0E4A00D55EEB /* Main.storyboard */; };
 		00CCDECC2CDB0E4B00D55EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CCDECB2CDB0E4B00D55EEB /* Assets.xcassets */; };
 		00CCDECF2CDB0E4B00D55EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CCDECD2CDB0E4B00D55EEB /* LaunchScreen.storyboard */; };
+		00CCDED72CDB0FC100D55EEB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCDED62CDB0FC100D55EEB /* LoginViewController.swift */; };
+		00CCDED92CDB0FD100D55EEB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCDED82CDB0FD100D55EEB /* HomeViewController.swift */; };
+		00CCDEDB2CDB0FDF00D55EEB /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCDEDA2CDB0FDF00D55EEB /* ImageSelectViewController.swift */; };
+		00CCDEDD2CDB0FED00D55EEB /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCDEDC2CDB0FED00D55EEB /* PostViewController.swift */; };
+		00CCDEDF2CDB100300D55EEB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCDEDE2CDB100300D55EEB /* SettingViewController.swift */; };
+		00CCDEE32CDB233200D55EEB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCDEE22CDB233200D55EEB /* TabBarController.swift */; };
+		00CCDEE52CDB26BF00D55EEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00CCDEE42CDB26BF00D55EEB /* GoogleService-Info.plist */; };
+		7B472A45AF4918336871A5C9 /* Pods_BusinessCardManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99AA799EBF7F634F04295AF9 /* Pods_BusinessCardManagement.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00CCDEBF2CDB0E4A00D55EEB /* BusinessCardManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessCardManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00CCDEC22CDB0E4A00D55EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00CCDEC42CDB0E4A00D55EEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00CCDEC62CDB0E4A00D55EEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00CCDEC92CDB0E4A00D55EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00CCDECB2CDB0E4B00D55EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00CCDECE2CDB0E4B00D55EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00CCDED02CDB0E4B00D55EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CCDED62CDB0FC100D55EEB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00CCDED82CDB0FD100D55EEB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		00CCDEDA2CDB0FDF00D55EEB /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		00CCDEDC2CDB0FED00D55EEB /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		00CCDEDE2CDB100300D55EEB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		00CCDEE22CDB233200D55EEB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		00CCDEE42CDB26BF00D55EEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99AA799EBF7F634F04295AF9 /* Pods_BusinessCardManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusinessCardManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA48D097AF83DC0506AC5688 /* Pods-BusinessCardManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessCardManagement.release.xcconfig"; path = "Target Support Files/Pods-BusinessCardManagement/Pods-BusinessCardManagement.release.xcconfig"; sourceTree = "<group>"; };
+		DD28D2202961F0487712F06D /* Pods-BusinessCardManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessCardManagement.debug.xcconfig"; path = "Target Support Files/Pods-BusinessCardManagement/Pods-BusinessCardManagement.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B472A45AF4918336871A5C9 /* Pods_BusinessCardManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				00CCDEC12CDB0E4A00D55EEB /* BusinessCardManagement */,
 				00CCDEC02CDB0E4A00D55EEB /* Products */,
+				2C140DA9F5CB16FD69304458 /* Pods */,
+				24AF5F4D392E09E4D5E3295B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,36 @@
 			children = (
 				00CCDEC22CDB0E4A00D55EEB /* AppDelegate.swift */,
 				00CCDEC42CDB0E4A00D55EEB /* SceneDelegate.swift */,
-				00CCDEC62CDB0E4A00D55EEB /* ViewController.swift */,
+				00CCDED62CDB0FC100D55EEB /* LoginViewController.swift */,
+				00CCDED82CDB0FD100D55EEB /* HomeViewController.swift */,
+				00CCDEE22CDB233200D55EEB /* TabBarController.swift */,
+				00CCDEDA2CDB0FDF00D55EEB /* ImageSelectViewController.swift */,
+				00CCDEDC2CDB0FED00D55EEB /* PostViewController.swift */,
+				00CCDEDE2CDB100300D55EEB /* SettingViewController.swift */,
 				00CCDEC82CDB0E4A00D55EEB /* Main.storyboard */,
 				00CCDECB2CDB0E4B00D55EEB /* Assets.xcassets */,
 				00CCDECD2CDB0E4B00D55EEB /* LaunchScreen.storyboard */,
 				00CCDED02CDB0E4B00D55EEB /* Info.plist */,
+				00CCDEE42CDB26BF00D55EEB /* GoogleService-Info.plist */,
 			);
 			path = BusinessCardManagement;
+			sourceTree = "<group>";
+		};
+		24AF5F4D392E09E4D5E3295B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99AA799EBF7F634F04295AF9 /* Pods_BusinessCardManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C140DA9F5CB16FD69304458 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD28D2202961F0487712F06D /* Pods-BusinessCardManagement.debug.xcconfig */,
+				BA48D097AF83DC0506AC5688 /* Pods-BusinessCardManagement.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00CCDED32CDB0E4B00D55EEB /* Build configuration list for PBXNativeTarget "BusinessCardManagement" */;
 			buildPhases = (
+				535AF83D7F1390263B387FB0 /* [CP] Check Pods Manifest.lock */,
 				00CCDEBB2CDB0E4A00D55EEB /* Sources */,
 				00CCDEBC2CDB0E4A00D55EEB /* Frameworks */,
 				00CCDEBD2CDB0E4A00D55EEB /* Resources */,
+				C3B82104E822F90A93C3CBE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00CCDECF2CDB0E4B00D55EEB /* LaunchScreen.storyboard in Resources */,
+				00CCDEE52CDB26BF00D55EEB /* GoogleService-Info.plist in Resources */,
 				00CCDECC2CDB0E4B00D55EEB /* Assets.xcassets in Resources */,
 				00CCDECA2CDB0E4A00D55EEB /* Main.storyboard in Resources */,
 			);
@@ -133,12 +178,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		535AF83D7F1390263B387FB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusinessCardManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B82104E822F90A93C3CBE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusinessCardManagement/Pods-BusinessCardManagement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusinessCardManagement/Pods-BusinessCardManagement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BusinessCardManagement/Pods-BusinessCardManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00CCDEBB2CDB0E4A00D55EEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CCDEC72CDB0E4A00D55EEB /* ViewController.swift in Sources */,
+				00CCDEDB2CDB0FDF00D55EEB /* ImageSelectViewController.swift in Sources */,
+				00CCDEE32CDB233200D55EEB /* TabBarController.swift in Sources */,
+				00CCDED92CDB0FD100D55EEB /* HomeViewController.swift in Sources */,
+				00CCDEDD2CDB0FED00D55EEB /* PostViewController.swift in Sources */,
+				00CCDEDF2CDB100300D55EEB /* SettingViewController.swift in Sources */,
+				00CCDED72CDB0FC100D55EEB /* LoginViewController.swift in Sources */,
 				00CCDEC32CDB0E4A00D55EEB /* AppDelegate.swift in Sources */,
 				00CCDEC52CDB0E4A00D55EEB /* SceneDelegate.swift in Sources */,
 			);
@@ -203,7 +295,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +358,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +379,7 @@
 		};
 		00CCDED42CDB0E4B00D55EEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD28D2202961F0487712F06D /* Pods-BusinessCardManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +388,7 @@
 				DEVELOPMENT_TEAM = JD97679UKV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BusinessCardManagement/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "本アプリは、画像の投稿及び編集のため、カメラの使用許可を求めます。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +412,7 @@
 		};
 		00CCDED52CDB0E4B00D55EEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA48D097AF83DC0506AC5688 /* Pods-BusinessCardManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,6 +421,7 @@
 				DEVELOPMENT_TEAM = JD97679UKV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BusinessCardManagement/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "本アプリは、画像の投稿及び編集のため、カメラの使用許可を求めます。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
